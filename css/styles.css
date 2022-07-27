@@ -188,20 +188,24 @@ font-size: 1.2rem;
 
 /* FOR MOBILE */
 
-@media (max-width: 1028px) {
+@media (max-width: 1024px) {
 
 .navbar {
-  padding-bottom: 10%;
+  padding-bottom: 3%;
 }
 
     .title-image {
-    position:static;
+    position:absolute;
     transform: rotate(0);
-    width: 50%;
+    width: 25%;
+    top: 38%;
+    left: 55%;
+
+
   }
 
   #title {
-    text-align: center;
+    text-align: left;
 
   }
 
@@ -215,6 +219,19 @@ font-size: 1.2rem;
   margin-top: 5%;
 }
 
+#features {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
 .testimonial-text {
   font-size: 3rem;
 }
@@ -226,40 +243,90 @@ font-size: 1.2rem;
 }
 
 .press-img {
-  margin: 20px 30px;
-  width: 30%;
+  margin: 5px 20px 20px;
+  width: 17%;
 }
 
 .pricing-title {
   margin: 10% 0 5%;
 }
 
+#pricing {
+  padding: 3% 10%
+}
+
+.price-head {
+  padding-top: 5%;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
 .row {
-  margin-top: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
-#cta {
+}
+
+
+@media (max-width: 768px){
+
+h1 {
   padding-top: 10%;
-  padding-bottom: 10%;
 }
 
-.download-bottom {
-  font-size: 3rem;
+#title {
+text-align: center;
+align-items: center;
 }
 
-.download-button-bottom {
+  .title-image {
+  position:static;
+  transform: rotate(0);
+  width: 60%;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+p {
   font-size: 1rem;
 }
 
-#footer {
-  padding: 10% 15%;
+.features-icon {
+  padding-bottom: 10px;
 }
 
-.sm-icons {
-margin: 3% 2%;
-}
+  .price-head {
+    padding-top: 5%;
+font-size: 1.5rem;
+  }
 
-.footer-text {
-  font-size: .85rem;
-}
+  #cta {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .download-bottom {
+    font-size: 3rem;
+  }
+
+  .download-button-bottom {
+    font-size: 1rem;
+  }
+
+  #footer {
+    padding: 10% 15%;
+  }
+
+  .sm-icons {
+  margin: 3% 2%;
+  }
+
+  .footer-text {
+    font-size: .85rem;
+  }
 }
