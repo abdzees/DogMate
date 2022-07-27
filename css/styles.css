@@ -81,20 +81,6 @@ font-size: 1.2rem;
   right: 25%;
 }
 
-@media (max-width: 1028px) {
-
-    .title-image {
-    position:static;
-    transform: rotate(0deg);
-    width: 60%;
-  }
-
-  #title {
-    text-align: center;
-  }
-
-}
-
 /* Features */
 
 #features {
@@ -197,4 +183,83 @@ font-size: 1.2rem;
   padding: 3% 1%;
   text-decoration: none;
   color: #8f8f8f;
+}
+
+
+/* FOR MOBILE */
+
+@media (max-width: 1028px) {
+
+.navbar {
+  padding-bottom: 10%;
+}
+
+    .title-image {
+    position:static;
+    transform: rotate(0);
+    width: 50%;
+  }
+
+  #title {
+    text-align: center;
+
+  }
+
+  h1 {
+    font-size: 2.6rem;
+  }
+
+.download-button {
+  font-size: 1rem;
+  margin-bottom: 15%;
+  margin-top: 5%;
+}
+
+.testimonial-text {
+  font-size: 2.25rem;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  margin: 5%;
+  width: 20%;
+}
+
+.press-img {
+  margin: 20px 30px;
+  width: 30%;
+}
+
+.pricing-title {
+  margin: 10% 0 5%;
+}
+
+.row {
+  margin-top: 10%;
+}
+
+#cta {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.download-bottom {
+  font-size: 3rem;
+}
+
+.download-button-bottom {
+  font-size: 1rem;
+}
+
+#footer {
+  padding: 10% 15%;
+}
+
+.sm-icons {
+margin: 3% 2%;
+}
+
+.footer-text {
+  font-size: .85rem;
+}
 }
